@@ -1,0 +1,8 @@
+.letter {
+    color: var(--color-text);
+    background-color: var(--color-tile);
+}
+
+.center {
+    background-color: var(--color-centre);
+}
