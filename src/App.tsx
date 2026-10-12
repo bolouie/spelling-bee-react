@@ -1,6 +1,5 @@
 import { Header } from './components/Header'
-import { LetterButton } from './components/LetterButton'
-
+import { Hive } from './components/Hive'
 import './App.css'
 
 function App() {
@@ -8,13 +7,7 @@ function App() {
   return (
     <>
       <Header date="2026-10-12" />
-      <LetterButton letter="A" isCenter />
-      <LetterButton letter="B" isCenter={false} />
-      <LetterButton letter="C" isCenter={false} />
-      <LetterButton letter="D" isCenter={false} />
-      <LetterButton letter="E" isCenter={false} />
-      <LetterButton letter="F" isCenter={false} />
-      <LetterButton letter="G" isCenter={false} />
+      <Hive centerLetter="A" outerLetters={["B", "C", "D", "E", "F", "G"]} />
     </>
   )
 }
